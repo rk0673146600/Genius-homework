@@ -1,0 +1,175 @@
+/* play-regular - cyrillic_latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/play-v19-cyrillic_latin-regular.woff2') format('woff2');
+}
+/* play-700 - cyrillic_latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/play-v19-cyrillic_latin-700.woff2') format('woff2');
+}
+
+/* roboto-regular - cyrillic_latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v30-cyrillic_latin-regular.woff2') format('woff2');
+}
+/* roboto-700 - cyrillic_latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-v30-cyrillic_latin-700.woff2') format('woff2');
+}
+
+:root {
+  --color-brand: #2b7fff;
+  --color-primary-dark: #011c44;
+  --color-primary-light: #fff;
+  --color-secondary-dark: #4a4a4a;
+}
+
+/* Base */
+body {
+  color: var(--color-primary-dark);
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*Button */
+.button {
+  color: var(--color-primary-light);
+  background-color: var(--color-brand);
+  border-radius: 32px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.button:hover {
+  background-color: red;
+}
+
+/* Link */
+.link {
+  color: var(--color-primary-dark);
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--color-brand);
+  font-weight: 700;
+}
+
+/* Hero section */
+.main-paragraph {
+  color: var(--color-primary-dark);
+}
+
+.hero-title {
+  color: var(--color-brand);
+  font-family: 'Play', sans-serif;
+  text-transform: capitalize;
+  font-size: 140px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.write-paragraph {
+  color: var(--color-secondary-dark);
+  font-size: 12px;
+}
+
+/* Aboutus-section */
+.section-title {
+  color: var(--color-brand);
+  font-family: 'Play', sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.section-title .accent {
+  color: var(--color-primary-dark);
+}
+
+.section-title .capitalize {
+  text-transform: capitalize;
+}
+
+.write-paragraph {
+  font-size: 22px;
+}
+
+.write-paragraph span {
+  color: var(--color-primary-dark);
+  font-weight: 600;
+  text-transform: capitalize;
+  color: var(--color-brand);
+}
+
+/* Whyus-section */
+.format-text {
+}
+
+/* Procedures-section*/
+.primary-light {
+  color: var(--color-primary-light);
+  background-color: red;
+  font-size: 22px;
+}
+
+/* Contact-section */
+
+.free-present {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.free-brand {
+  color: var(--color-brand);
+}
+
+.privacy-policy {
+  font-size: 12px;
+}
+
+.link-privacy-policy {
+  text-decoration: underline;
+}
+
+.link-privacy-policy:hover {
+  text-decoration: none;
+  color: var(--color-brand);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* Footer */
+.address-link {
+  color: var(--color-primary-light);
+  background-color: red;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 16px;
+}
+.address-link:hover {
+  color: var(--color-brand);
+}
+
+.address-copyright {
+  font-size: 13px;
+}

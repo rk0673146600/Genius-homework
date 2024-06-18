@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beauty Zone</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
@@ -37,26 +38,36 @@
     </header>
     <main>
       <section>
-        <p>Косметологічна клініка</p>
-        <h1 class="hero-title"><span class="accent">Beauty Zone</span></h1>
+        <p class="main-paragraph">Косметологічна клініка</p>
+        <h1 class="hero-title">Beauty zone</h1>
         <button class="button" type="button" disabled>Замовити дзвінок</button>
-        <p>Запишись та отримай безкоштовну консультацію нашого косметолога</p>
+        <p class="write-paragraph">
+          Запишись та отримай безкоштовну консультацію нашого косметолога
+        </p>
       </section>
       <section id="Aboutus-section">
-        <h2 class="section-title">Перевтілюйтесь в beauty zone!</h2>
-        <p>
+        <h2 class="section-title">
+          <span class="accent">Перевтілюйтесь в </span>
+          <span class="capitalize">beauty zone!</span>
+        </h2>
+        <img src="./images/face under.jpg" alt="Обличчя до" />
+        <p class="write-paragraph">
           Наша косметологічна клініка пропонує вам професійні послуги з догляду
           за шкірою обличчя та тіла.
         </p>
-        <p>
-          B beauty zone ми гарантуємо найвищі стандарти якості та приємний
-          сервіс. Наші косметологічні процедури та препарати допоможуть вам
-          підтримувати свою красу та молодість. З нами краса назавжди!
+        <img src="./images/face after.jpg" alt="Обличчя після" />
+        <p class="write-paragraph">
+          В
+          <span class="write-paragraph">beauty zone</span>
+          косметологічні процедури та препарати допоможуть вам підтримувати свою
+          красу та молодість. З нами краса назавжди!
         </p>
       </section>
       <section id="Whyus-section">
-        <h2 class="section-title">Чому люди обирають нас</h2>
-        <ul>
+        <h2 class="section-title">
+          <span class="accent">Чому люди</span> обирають нас
+        </h2>
+        <ul class="format-text">
           <li>
             Всі наші косметологи мають вищу медичну освіту та стаж роботи від 5
             років
@@ -72,15 +83,20 @@
         </ul>
       </section>
       <section id="Procedures-section">
-        <h2 class="section-title">Наші процедури</h2>
+        <h2 class="section-title">
+          <span class="accent">Наші</span> процедури
+        </h2>
         <ul>
-          <li>Маски для обличчя</li>
-          <li>Ін'єкції для обличчя</li>
-          <li>Чистка обличчя</li>
+          <li class="primary-light">Маски для обличчя</li>
+          <img src="./images/face mask.jpg" alt="Маски для обличчя" />
+          <li class="primary-light">Ін'єкції для обличчя</li>
+          <img src="./images/face injections.jpg" alt="Ін'єкції для обличчя" />
+          <li class="primary-light">Очищення обличчя</li>
+          <img src="./images/face clean.jpg" alt="Очищення обличчя" />
         </ul>
       </section>
       <section id="Contact-section">
-        <h2 class="section-title">Як нас знайти</h2>
+        <h2 class="section-title"><span class="accent">Як нас</span> знайти</h2>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2537.4756098574235!2d30.77264847681019!3d50.50671678331047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4d97de411b701%3A0x48116b28f7f00d94!2z0YPQuy4g0KLQsNGA0LDRgdCwINCo0LXQstGH0LXQvdC60L4sIDUsINCR0YDQvtCy0LDRgNGLLCDQmtC40LXQstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCAwNzQwMA!5e0!3m2!1sru!2sua!4v1718393809752!5m2!1sru!2sua"
           width="605"
@@ -90,11 +106,19 @@
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
-        <p>Запишіться безкоштовно та отримайте подарунок</p>
+        <p class="free-present">
+          Запишіться <span class="free-brand">безкоштовно</span> та отримайте
+          подарунок
+        </p>
         <button class="button" type="button" disabled>
           Записатись безкоштовно
         </button>
-        <p>Натискаючи на кнопку я погоджуюсь з політикою конфіденційності</p>
+        <p class="privacy-policy">
+          Натискаючи на кнопку я погоджуюсь
+          <span a class="link-privacy-policy" href="#privacy-policy">
+            з політикою конфіденційності</span
+          >
+        </p>
       </section>
     </main>
     <footer>
