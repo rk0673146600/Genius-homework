@@ -149,6 +149,7 @@ ul {
 
 .link-privacy-policy {
   text-decoration: underline;
+  font-size: 12px;
 }
 
 .link-privacy-policy:hover {
@@ -156,6 +157,7 @@ ul {
   color: var(--color-brand);
   font-weight: 700;
   cursor: pointer;
+  font-size: 12px;
 }
 
 /* Footer */
