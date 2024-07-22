@@ -45,23 +45,48 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: 400;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
 }
 
 ul {
+  margin: 0;
+  padding: 0;
   list-style-type: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1288px;
+  margin: 0 auto;
+  padding: 0 24px;
 }
 
 /*Button */
 .button {
+  width: 220px;
+  height: 54px;
+  padding: 16px 32px;
   color: var(--color-primary-light);
   background-color: var(--color-brand);
   border-radius: 32px;
   cursor: pointer;
   font-weight: 600;
+  margin-bottom: 14px;
 }
 
 .button:hover {
-  background-color: red;
+  color: var(--color-brand);
+  background-color: transparent;
 }
 
 /* Link */
@@ -73,15 +98,58 @@ ul {
 
 .link:hover {
   color: var(--color-brand);
-  font-weight: 700;
+}
+
+/*Header*/
+.header-container {
+  padding: 0 16px 16px 16px;
+  height: 106px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.adress-icon {
+  fill: var(--color-primary-light);
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  gap: 40px;
+}
+
+.header-menu {
+  display: flex;
+  gap: 56px;
+  flex-grow: 1;
+  justify-content: center;
 }
 
 /* Hero section */
+.hero-section {
+  background-image: url(../images/lady-doctor.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container.hero {
+  margin-left: 800px;
+  padding: 0 0 96px 0;
+}
+
 .main-paragraph {
   color: var(--color-primary-dark);
+  margin-bottom: 16px;
+  font-size: 18px;
+  max-width: 530px;
 }
 
 .hero-title {
+  line-height: 0.9;
+  max-width: 530px;
+  margin-bottom: 40px;
   color: var(--color-brand);
   font-family: 'Play', sans-serif;
   text-transform: capitalize;
@@ -90,13 +158,28 @@ ul {
   font-style: normal;
 }
 
-.write-paragraph {
+.paragraph-hero {
   color: var(--color-secondary-dark);
   font-size: 12px;
+  max-width: 238px;
+  text-align: center;
 }
 
 /* Aboutus-section */
+.reincarnation-section {
+  padding: 28px 0 92px 0;
+}
+
+.reincarnation-container {
+  justify-content: space-between;
+  padding: 96px 0 190px 0;
+  display: flex;
+  gap: 32px;
+}
+
 .section-title {
+  max-width: 530px;
+  margin-bottom: 40px;
   color: var(--color-brand);
   font-family: 'Play', sans-serif;
   font-size: 64px;
@@ -112,6 +195,8 @@ ul {
 }
 
 .write-paragraph {
+  max-width: 709px;
+  margin-bottom: 40px;
   font-size: 22px;
 }
 
@@ -122,11 +207,46 @@ ul {
   color: var(--color-brand);
 }
 
+.photo {
+  max-width: 500px;
+  max-height: 695px;
+}
+
 /* Whyus-section */
+.whypeople-section {
+  padding: 92px 0 48px 0;
+}
+
 .format-text {
+  display: flex;
+  gap: 56px;
+  justify-content: space-between;
+}
+
+.format-border {
+  display: flex;
+  max-width: 252px;
+  align-self: center;
+  text-align: center;
+}
+
+.format-advantages {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border: 1px solid lightgray;
+  border-radius: 32px;
+  width: 316px;
+  height: 181px;
+  padding: 0 32px;
+  margin: 0;
 }
 
 /* Procedures-section*/
+.ourprocedures-section {
+  padding: 48px 0;
+}
+
 .primary-light {
   color: var(--color-primary-light);
   background-color: red;
@@ -134,6 +254,9 @@ ul {
 }
 
 /* Contact-section */
+.foundus-section {
+  padding: 48px 0 96px 0;
+}
 
 .free-present {
   font-weight: 600;
@@ -162,9 +285,12 @@ ul {
 }
 
 /* Footer */
+.link {
+  color: var(--color-primary-light);
+}
+
 .address-link {
   color: var(--color-primary-light);
-  background-color: red;
   font-style: normal;
   text-decoration: none;
   font-size: 16px;
@@ -175,4 +301,8 @@ ul {
 
 .address-copyright {
   font-size: 13px;
+}
+
+.footer {
+  background-color: var(--color-primary-dark);
 }
