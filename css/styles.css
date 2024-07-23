@@ -212,7 +212,17 @@ ul {
   max-height: 695px;
 }
 
+.photo-circle {
+  border-radius: 50%;
+  box-shadow: 0 4px 4px 0 rgba(168, 198, 245, 0.2);
+}
+
 /* Whyus-section */
+.section-title.centered {
+  text-align: center;
+  margin: 0 auto 48px;
+}
+
 .whypeople-section {
   padding: 92px 0 48px 0;
 }
