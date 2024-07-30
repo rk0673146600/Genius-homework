@@ -180,98 +180,116 @@
           <h2 class="section-title centered">
             <span class="accent">Як нас</span> знайти
           </h2>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2537.4756098574235!2d30.77264847681019!3d50.50671678331047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4d97de411b701%3A0x48116b28f7f00d94!2z0YPQuy4g0KLQsNGA0LDRgdCwINCo0LXQstGH0LXQvdC60L4sIDUsINCR0YDQvtCy0LDRgNGLLCDQmtC40LXQstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCAwNzQwMA!5e0!3m2!1sru!2sua!4v1718393809752!5m2!1sru!2sua"
-            width="605"
-            height="481"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-          <p class="free-present">
-            Запишіться <span class="free-brand">безкоштовно</span> та отримайте
-            подарунок
-          </p>
-          <button class="button" type="button" disabled>
-            Записатись безкоштовно
-          </button>
-          <p class="privacy-policy">
-            Натискаючи на кнопку я погоджуюсь
-            <span>
-              <a class="link-privacy-policy" href="#privacy-policy"
-                >з політикою конфіденційності</a
-              >
-            </span>
-          </p>
+          <div class="contact-container">
+            <iframe
+              class="contact-map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2537.4756098574235!2d30.77264847681019!3d50.50671678331047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4d97de411b701%3A0x48116b28f7f00d94!2z0YPQuy4g0KLQsNGA0LDRgdCwINCo0LXQstGH0LXQvdC60L4sIDUsINCR0YDQvtCy0LDRgNGLLCDQmtC40LXQstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCAwNzQwMA!5e0!3m2!1sru!2sua!4v1718393809752!5m2!1sru!2sua"
+              width="605"
+              height="481"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <div class="contact-form">
+              <p class="free-present">
+                Запишіться <span class="free-brand">безкоштовно</span> та
+                отримайте подарунок
+              </p>
+              <button class="button contact" type="button" disabled>
+                Записатись безкоштовно
+              </button>
+              <p class="privacy-policy">
+                Натискаючи на кнопку я погоджуюсь
+                <span>
+                  <a class="link-privacy-policy" href="#privacy-policy"
+                    >з політикою конфіденційності</a
+                  >
+                </span>
+              </p>
+              <!-- form -->
+            </div>
+          </div>
         </div>
       </section>
     </main>
     <footer class="footer">
       <div class="container">
-        <nav>
-          <a href="#">
-            <img src="./images/logo.svg" alt="Логотип Beauty Zone" />
-          </a>
-          <ul>
-            <li><a class="link-footer" href="#Aboutus-section">Про нас</a></li>
-            <li><a class="link-footer" href="#Whyus-section">Чому ми</a></li>
-            <li>
-              <a class="link-footer" href="#Procedures-section"
-                >Наші процедури</a
-              >
-            </li>
-            <li><a class="link-footer" href="#Contact-section">Контакти</a></li>
-          </ul>
-        </nav>
-        <address>
-          <ul>
-            <li>
-              <a class="address-link" href="tel:+380960000007"
-                >+38 096 000 00 07</a
-              >
-            </li>
-            <li>
-              <a class="address-link" href="mailto:beautyzone@gmail.com"
-                >beautyzone@gmail.com</a
-              >
-            </li>
-            <li>
-              <a
-                class="address-link"
-                href="https://maps.app.goo.gl/MAua23UQMCXij3v58"
-                target="_blank"
-              >
-                Україна, м. Київ, вул. Тараса Шевченка 5
-              </a>
-            </li>
-            <li>
+        <div class="footer-container">
+          <nav class="footer-nav">
+            <div class="footer-logo">
               <a href="#">
-                <svg class="address-icon" width="42" height="42">
-                  <use href="./images/icons.svg#icon-Phone-bz"></use>
-                </svg>
+                <img src="./images/logo.svg" alt="Логотип Beauty Zone" />
               </a>
-            </li>
-            <li>
-              <a href="#">
-                <svg class="address-icon" width="42" height="42">
-                  <use href="./images/icons.svg#icon-Facebook-bz"></use>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <svg class="address-icon" width="42" height="42">
-                  <use href="./images/icons.svg#icon-Instagram-bz"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-          <a class="address-link" href="#" target="_blank"
-            >Політика конфіденційності</a
-          >
-          <p class="address-copyright">&copy; 2022 Дані захищені</p>
-        </address>
+            </div>
+            <ul class="footer-menu">
+              <li>
+                <a class="link-footer" href="#Aboutus-section">Про нас</a>
+              </li>
+              <li><a class="link-footer" href="#Whyus-section">Чому ми</a></li>
+              <li>
+                <a class="link-footer" href="#Procedures-section"
+                  >Наші процедури</a
+                >
+              </li>
+              <li>
+                <a class="link-footer" href="#Contact-section">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="footer-address">
+            <ul class="address-list">
+              <li>
+                <a class="address-link" href="tel:+380960000007"
+                  >+38 096 000 00 07</a
+                >
+              </li>
+              <li>
+                <a class="address-link" href="mailto:beautyzone@gmail.com"
+                  >beautyzone@gmail.com</a
+                >
+              </li>
+              <li>
+                <a
+                  class="address-link"
+                  href="https://maps.app.goo.gl/MAua23UQMCXij3v58"
+                  target="_blank"
+                >
+                  Україна, м. Київ, вул. Тараса Шевченка 5
+                </a>
+              </li>
+              <div class="footer-icon">
+                <li>
+                  <a href="#">
+                    <svg class="address-icon" width="42" height="42">
+                      <use href="./images/icons.svg#icon-Phone-bz"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg class="address-icon" width="42" height="42">
+                      <use href="./images/icons.svg#icon-Facebook-bz"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg class="address-icon" width="42" height="42">
+                      <use href="./images/icons.svg#icon-Instagram-bz"></use>
+                    </svg>
+                  </a>
+                </li>
+              </div>
+            </ul>
+            <div class="address-info">
+              <a class="address-link" href="#" target="_blank"
+                >Політика конфіденційності</a
+              >
+              <p class="address-copyright">&copy; 2022 Дані захищені</p>
+            </div>
+          </address>
+        </div>
       </div>
     </footer>
   </body>
