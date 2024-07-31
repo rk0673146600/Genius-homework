@@ -137,6 +137,7 @@ ul {
 
 .header-icon {
   display: flex;
+  width: 160px;
 }
 
 .body-icon {
@@ -266,6 +267,13 @@ ul {
   height: 181px;
   padding: 0 32px;
   margin: 0;
+}
+
+.format-icon {
+  display: flex;
+  align-self: center;
+  padding-bottom: 8px;
+  fill: var(--color-brand);
 }
 
 /* Procedures-section*/
@@ -420,6 +428,11 @@ ul {
   gap: 20px;
 }
 
+.footer-icon {
+  display: flex;
+  padding-top: 16px;
+}
+
 .link-footer {
   color: var(--color-primary-light);
   text-decoration: none;
@@ -445,10 +458,6 @@ ul {
 }
 .address-link:hover {
   color: var(--color-brand);
-}
-
-.footer-icon {
-  display: flex;
 }
 
 .address-icon {
