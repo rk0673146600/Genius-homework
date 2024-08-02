@@ -124,24 +124,25 @@ ul {
 .header-nav {
   display: flex;
   align-items: center;
-  flex-grow: 1;
   gap: 40px;
 }
 
 .header-menu {
   display: flex;
   gap: 56px;
-  flex-grow: 1;
   justify-content: center;
+  padding-left: 140px;
 }
 
 .header-icon {
   display: flex;
-  width: 160px;
+  width: 360px;
+  justify-content: flex-end;
 }
 
 .body-icon {
   fill: var(--color-primary-dark);
+  margin-right: 32px;
 }
 
 /* Hero section */
@@ -248,6 +249,7 @@ ul {
   display: flex;
   gap: 56px;
   justify-content: space-between;
+  background-image: url(../images/why-us-background.jpg);
 }
 
 .format-border {
@@ -284,7 +286,7 @@ ul {
 .ourprocedures-text {
   max-width: 152px;
   color: var(--color-primary-light);
-  background-color: red;
+  background-color: var(--color-brand); /* remove*/
   font-size: 22px;
 }
 
@@ -431,6 +433,8 @@ ul {
 .footer-icon {
   display: flex;
   padding-top: 16px;
+  width: 174px;
+  justify-content: space-between;
 }
 
 .link-footer {
@@ -444,6 +448,7 @@ ul {
 
 .address-list {
   flex-grow: 1;
+  width: 192px;
 }
 
 .address-info {
