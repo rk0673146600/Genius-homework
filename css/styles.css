@@ -285,9 +285,9 @@ ul {
 
 .ourprocedures-text {
   max-width: 152px;
-  color: var(--color-primary-light);
-  background-color: var(--color-brand); /* remove*/
+  color: var(--color-brand); /* change color */
   font-size: 22px;
+  text-align: center;
 }
 
 .ourprocedures-container {
@@ -309,6 +309,10 @@ ul {
 }
 
 .ourprocedures-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
   width: 344px;
   height: 456px;
   padding: 32px;
@@ -341,6 +345,7 @@ ul {
 .contact-container {
   display: flex;
   gap: 32px;
+  padding-left: 106px;
 }
 
 .contact-map {
@@ -403,6 +408,7 @@ ul {
 .footer {
   padding: 56px 0;
   background-color: var(--color-primary-dark);
+  height: 278px;
 }
 
 .footer-container {
@@ -428,6 +434,12 @@ ul {
   display: flex;
   flex-basis: 50%;
   gap: 20px;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .footer-icon {
